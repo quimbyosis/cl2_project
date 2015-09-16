@@ -1,13 +1,32 @@
+@font-face {
+	font-family: 'Cinzel', Helvetica, serif;
+}
+
 body {
 	background-color: #2a9dea;
 }
 
 .top-bar {
-	height: 50px;
+	height: 3rem;
 	background-color: #64defc;
-	color: 
+	color: #333333;
 }
 
 .top-bar a {
-	height: 50px;
+	height: 3rem;
 }
+
+.we-cat {
+	background: url("img/limber_header.jpg") no-repeat center center;
+	background-size: cover;
+	height: 90vh;
+}
+	
+	.hero h1 {
+		color: #000;
+		font-family: 'Cinzel', Helvetica, serif;
+		font-weight: bold; 
+		text-shadow: 3px 3px 1px rgba(256, 256, 256, .8);
+		text-align: center;
+		position: relative;
+	}
