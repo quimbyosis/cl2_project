@@ -16,12 +16,6 @@ body {
 	height: 3rem;
 }
 
-.we-cat {
-	background: url("img/limber_header.jpg") no-repeat center center;
-	background-size: cover;
-	height: 90vh;
-}
-	
 .hero h1 {
 	color: #fff;
 	font-family: 'Cinzel', Helvetica, serif;
@@ -30,6 +24,14 @@ body {
 	text-shadow: -3px -3px 1px rgba(100, 222, 252, .8);
 	text-align: center;
 	position: relative;
+	margin-top: 0;
+}
+
+
+.we-cat {
+	background: url("img/limber_header.jpg") no-repeat center center;
+	background-size: cover;
+	height: 90vh;
 }
 
 .puffy {
@@ -40,6 +42,12 @@ body {
 
 .rush {
 	background: url("img/new_Rushmore.jpg") no-repeat center center;
+	background-size: cover;
+	height: 90vh;
+}
+
+.obama {
+	background: url("img/meowwecan.jpg") no-repeat center center;
 	background-size: cover;
 	height: 90vh;
 }
