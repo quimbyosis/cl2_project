@@ -6,6 +6,10 @@ body {
 	background-color: #2a9dea;
 }
 
+ul {
+	list-style: none;
+}
+
 .top-bar {
 	height: 3rem;
 	background-color: #64defc;
@@ -16,6 +20,8 @@ body {
 	height: 3rem;
 }
 
+/** Header Styles **************/
+
 .hero h1 {
 	color: #666;
 	font-family: 'Cinzel', Helvetica, serif;
@@ -24,20 +30,6 @@ body {
 	text-align: center;
 	position: relative;
 	margin-top: 0;
-}
-
-.footer {
-	font-size: 0.75rem;
-	padding-top: 50px;
-	text-align: center;
-	clear: both;
-	color: rgba(35, 31, 32, 0.6);
-}
-
-.footer img {
-	width: 40px;
-	height: 40px;
-	margin: 5px;
 }
 
 
@@ -75,7 +67,23 @@ body {
 }
 
 .meow-now {
-	padding: 30px 0;
+	padding: 30px 0 0;
+}
+
+/** Main Styles **************/
+
+.footer {
+	font-size: 0.75rem;
+	padding-top: 50px;
+	text-align: center;
+	clear: both;
+	color: rgba(35, 31, 32, 0.6);
+}
+
+.footer img {
+	width: 40px;
+	height: 40px;
+	margin: 5px;
 }
 
 .button {
@@ -94,15 +102,17 @@ hr {
     clear: both;
 }
 
-.about {
+.custom-panel {
 	max-width: 60%;
 	text-align: center;
-	margin: auto;
+	margin: 50px auto;
 	padding: 20px;
 	color: #fff;
 	background-color: rgba(102, 102, 102, 0.3);
 	border: 1px solid #ccc;
 }
+
+/** Main Page **************/
 
 .flexvideo {
 	max-width: 60%;
@@ -110,8 +120,11 @@ hr {
 	margin: auto
 }
 
+/** Press Page **************/
 
-
-
+.plinks a {
+	color: #ccc;
+	padding: 30px 0;
+}
 
 
