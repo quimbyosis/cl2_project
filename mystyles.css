@@ -17,6 +17,7 @@ body {
 }
 
 .hero h1 {
+	color: #666;
 	font-family: 'Cinzel', Helvetica, serif;
 	font-weight: bold; 
 	text-shadow: -2px -2px 1px rgba(100, 222, 252, .8);
@@ -27,14 +28,13 @@ body {
 
 
 .we-cat {
-	background: url("img/limber_header.jpg") no-repeat center center;
+	background: 
+    linear-gradient(0deg, transparent, #fff), 
+    #2a9dea url("img/limber_header.jpg") no-repeat center center;
 	background-size: cover;
 	height: 90vh;
 }
 
-.we-cat h1 {
-	color: #666;
-}
 
 .puffy {
 	background: url("img/rockypuffy.jpg") no-repeat center center;
@@ -42,9 +42,6 @@ body {
 	height: 90vh;
 }
 
-.puffy h1 {
-	color: #666;
-}
 
 .rush {
 	background: url("img/new_Rushmore.jpg") no-repeat center center;
@@ -52,8 +49,13 @@ body {
 	height: 90vh;
 }
 
+.rush h1 {
+	color: #fff;
+}
+
 .obama {
-	background: url("img/meowwecan.jpg") no-repeat center center;
+	background: linear-gradient(0deg, transparent, #fff), 
+    #2a9dea url("img/meowwecan.jpg") no-repeat center center;
 	background-size: cover;
 	height: 90vh;
 }
