@@ -127,4 +127,17 @@ hr {
 	padding: 30px 0;
 }
 
+/** Gear Page **************/
+
+#gallery img {
+	width: 60%;
+	margin: 2.5%;
+	float: left;
+}
+
+#gallery p {
+	color: #fff;
+	clear: both;
+	text-align: center;
+}
 
