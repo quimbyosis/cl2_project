@@ -14,7 +14,7 @@ ul {
 
 ul li {
 	background-position: 0px center;
-	/*padding-left: 15px;*/
+	margin-right: -0.36em;
 }
 
 .top-bar {
@@ -199,4 +199,12 @@ hr {
 #vote img {
 	padding-bottom: 5%;
 	padding-top: 5%;
+}
+
+#issues a {
+	color: red;
+}
+
+#modalTitle {
+	color: #2a9dea;
 }
