@@ -139,7 +139,12 @@ hr {
 .flexvideo {
 	max-width: 60%;
 	text-align: center;
-	margin: auto
+	margin: auto;
+}
+
+iframe {
+	max-width: 100%;
+	height: auto;
 }
 
 /** Press Page **************/
