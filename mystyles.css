@@ -137,9 +137,7 @@ hr {
 /** Main Page **************/
 
 .flexvideo {
-	/*max-width: 60%;*/
 	text-align: center;
-	margin: auto;
 	height: 0;
 	padding-bottom: 56.25%;
 	padding-top: 25px;
@@ -147,8 +145,6 @@ hr {
 }
 
 .flexvideo iframe {
-	/*max-width: 100%;
-	height: auto;*/
 	position: absolute;
 	top: 0; 
 	left: 20%; 
