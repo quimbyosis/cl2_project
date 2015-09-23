@@ -218,3 +218,28 @@ hr {
 #modalTitle {
 	color: #2a9dea;
 }
+
+/** Media Queries **************/
+
+@media only screen and (max-width: 40em) {
+	.plinks li {
+		padding-bottom: 10%;
+	}
+
+	#gallery img {
+		padding-top: 20%;
+	}
+
+	.footer p {
+		font-size: 0.5rem;
+	}
+
+	.footer img {
+		width: 20px;
+		height: 20px;
+		margin: 5px;
+	}
+}
+
+
+
