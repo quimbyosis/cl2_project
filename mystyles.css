@@ -168,8 +168,6 @@ hr {
 #gallery img {
 	width: 60%;
 	margin: 5% auto;
-	float: left;
-	position: inherit;
 }
 
 #gallery p {
