@@ -129,9 +129,12 @@ hr {
 }
 
 .container {
-	width: 100%;
-	margin: 5% auto;
 	text-align: center;
+}
+
+.centerMe {
+	text-align: center;
+	vertical-align: middle;
 }
 
 /** Main Page **************/
@@ -172,14 +175,12 @@ hr {
 
 #gallery p {
 	color: #fff;
-	clear: both;
-	text-align: justify;
+	text-align: center;
 }
 
 #gallery a {
 	color: #fff;
 }
-
 
 #go-gear {
 	color: #fff;
@@ -211,6 +212,11 @@ hr {
 
 #issues a {
 	color: red;
+}
+
+#issues img {
+	width: 60%;
+	margin: 15% auto 5%;
 }
 
 #modalTitle {
