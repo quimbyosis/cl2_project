@@ -81,7 +81,6 @@ ul li {
 
 .footer {
 	font-size: 0.75rem;
-	padding-top: 50px;
 	text-align: center;
 	clear: both;
 	color: rgba(35, 31, 32, 0.6);
@@ -245,5 +244,20 @@ hr {
 	}
 }
 
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+	.footer p {
+		font-size: 0.5rem;
+	}
 
+	.footer img {
+		width: 30px;
+		height: 30px;
+		margin: 5px;
+	}
+
+	.plinks li {
+		padding-bottom: 5%;
+	}
+
+}
 
